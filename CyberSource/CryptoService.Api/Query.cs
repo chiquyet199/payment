@@ -6,7 +6,7 @@ namespace CryptoService.Api
 {
     public class Query
     {
-        private const String SECRET_KEY = "a0f0e92a8ce745509d4fa384ebf634df7918c0d928d943ec98be92364d9e0aec07fb54aea3964d6fb19f223b4b7f18c40dd434f481c642f0a3041f810d7e8480c9d041cf796845059eb3e276156d5910b69d08fdcf914592bdf2839f1c7c13684aac1a800a784c75a83b2a9043e6ae8e8442ebcbd2194a3cb8f6fd93a31b8d23";
+        private const String SECRET_KEY = "6ca5231b676a48359247ccd931d47211ee29cba4202647469f2feb7400c5e2460721f523d81641ff9f4deed5ed1f8c5370fef6927b1b499a89789f8bf3ee78b466ee175a8a2b4cc59c50c205c540e9365433ee4bfb8e419e8df0ad678b6969ddfecbe114daaa498381a99478518ec9c20de8fa80d51b44c29b6125e51e23f143";
 
         public string GetHmacSha256(string message)
         {
